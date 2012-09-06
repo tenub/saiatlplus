@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+    		<!-- header content start -->
+			<!--#include virtual="assets/templates/header-tl.html" -->
+			<!-- header content end -->
+    		<div id="content">
+    			<div id="main">
+    				<div class="container">
+						<div class="formBody">
+							<h1>Weather Information</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan urna at lectus suscipit nec gravida tortor vulputate. Curabitur eros lacus, imperdiet id convallis eu, aliquam vel enim. Aliquam quis mattis dui. Suspendisse potenti. Suspendisse diam dui, malesuada in varius eget, feugiat eget nulla.</p>
+                            <ul class="list">
+                                <li class="noTopSpacing">Freezable shipments are accepted as follows:<br />Outside temperature forecast to be 10° Fahrenheit or higher.</li>
+                                <li>Freezable protection service is only provided for those products having a freeze point of 32° Fahrenheit or below.</li>
+                            </ul>
+                        </div>
+                        <div class="formBody">
+                            <h2>Check weather conditions prior to shipping</h2>
+                            <form>
+                                <div>
+                                    <h3>Enter a zipcode or city/state</h3>
+                                    <div class="min">
+                                        <div class="left">
+                                            <div><input type="text" placeholder="City" name="weather_location" id="city" class="required" /></div>
+                                            <div><p style="float:left;">and/or</p><input type="text" placeholder="Zipcode" name="weather_location" id="zipcode" class="required zip" /></div>
+                                        </div>
+                                        <div class="right">
+                                            <div><input type="text" placeholder="State" name="weather_location" id="state" class="required" /></div>
+                                            <div>
+                                                <select name="weather_location" id="country-origin" class="select required right">
+                                                    <option>Select Country</option>
+                                                    <option value="1">United States</option>
+                                                    <option value="2">Canada</option>
+                                                    <option value="3">Mexico</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="spacer1"></div>
+                                <p class="required">Bold: Required</p>
+                                <div>
+                                    <input type="submit" value="Get Forecast" class="roundRed" />
+                                </div>
+                            </form>
+                        </div>
+        			</div>
+                </div>
+    			<div id="sidebar">
+    				<div class="container">
+						<!-- sidebar content start -->
+						<!--#include virtual="assets/templates/sidebar-index-tl.html" -->
+						<!-- sidebar content end -->
+    					<div class="spacer"></div>
+    				</div>
+    			</div>
+    		</div>
+    		<!-- footer content start -->
+			<!--#include virtual="assets/templates/footer-tl.html" -->
+			<!-- footer content end -->
+	</body>
+</html>

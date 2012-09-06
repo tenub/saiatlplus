@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+  <!-- header content start --> 
+  <!--#include virtual="assets/templates/header-tl.html" --> 
+  <!-- header content end -->
+  <div id="content">
+    <div id="main">
+      <div class="container">
+        <div class="formBody">
+          <h1>New Customer Registration</h1>
+          <div class="spacer2"></div>
+          <h2>Register an Account Now for Amazing Benefits!</h2>
+          <p class="first">Donec adipiscing facilisis leo. Etiam risus justo, vulputate sed molestie vel, imperdiet ac urna. Aliquam tristique aliquam enim sit amet dignissim. Aliquam lobortis consectetur diam, vel varius erat iaculis at. Suspendisse sed tellus eget lorem condimentum viverra quis sit amet nisl.</p>
+          <p>Donec adipiscing facilisis leo. Etiam risus justo, vulputate sed molestie vel, imperdiet ac urna. Aliquam tristique aliquam enim sit amet dignissim. Aliquam lobortis consectetur diam, vel varius erat iaculis at. Suspendisse sed tellus eget lorem condimentum viverra quis sit amet nisl.</p>
+          <div class="spacer1"></div>
+          <hr />
+          <div class="spacer3"></div>
+          <form>
+            <h3>Account Information</h3>
+            <div>
+              <input type="text" placeholder="User ID" name="acc_info" id="user_id" class="required" />
+              <div class="halves">
+                <input type="text" placeholder="Password" name="acc_info" id="password" class="left required" />
+                <input type="text" placeholder="Confirm Password" name="acc_info" id="password_conf" class="right required" />
+                <div class="clear"></div>
+              </div>
+            </div>
+            <div class="spacer1"></div>
+            <hr />
+            <div class="spacer3"></div>
+            <h3>Contact Information</h3>
+            <div>
+              <input type="text" placeholder="Contact Name" name="contact_info" id="name" class="required" />
+              <input type="text" placeholder="Company Name" name="contact_info" id="name_company" class="required" />
+              <input type="text" placeholder="Street Address" name="contact_info" id="address" class="required" />
+              <input type="text" placeholder="City" name="contact_info" id="city" class="required" />
+              <div class="halves">
+                <input type="text" placeholder="State" name="contact_info" id="state" class="left required" />
+                <input type="text" placeholder="Zip Code" name="contact_info" id="zipcode" class="right required" />
+              </div>
+            </div>
+            <div>
+              <input type="text" placeholder="Phone Number" name="contact_info" id="phone_num" class="required" />
+              <input type="text" placeholder="E-mail Address" name="contact_info" id="email" class="required" />
+              <input type="text" placeholder="Saia Account Code" name="contact_info" id="account_code" class="" />
+            </div>
+            <div class="spacer1"></div>
+            <hr />
+            <div class="spacer3"></div>
+            <h3>Location Information</h3>
+            <div>
+              <div id="input1" class="clonedInput freight">
+                <input type="text" placeholder="Location" name="location_info" id="location1" class="required" />
+              </div>
+              <div class="spacer2"></div>
+              <div>
+                  <input type="button" id="btnAdd" value="Add Item" class="roundRed" style="margin-right:10px;" />
+                  <input type="button" id="btnDel" value="Remove Item" class="roundRed" />
+              </div>
+            </div>
+            <div class="spacer3"></div>
+            <hr />
+            <div class="spacer1"></div>
+            <p class="required">Bold: Required</p>
+            <div>
+              <input type="reset" value="Clear" class="roundWhite" />
+              <input type="submit" value="Submit" class="roundRed" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div id="sidebar">
+      <div class="container"> 
+        <!-- sidebar content start --> 
+        <!--#include virtual="assets/templates/sidebar-index-tl.html" --> 
+        <!-- sidebar content end -->
+        <div class="spacer"></div>
+      </div>
+    </div>
+  </div>
+  <!-- footer content start --> 
+  <!--#include virtual="assets/templates/footer-tl.html" --> 
+<!-- footer content end -->
+</body>
+</html>

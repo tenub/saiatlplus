@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+  <!-- header content start --> 
+  <!--#include virtual="assets/templates/header-tl.html" --> 
+  <!-- header content end -->
+  <div id="content">
+    <div id="main">
+      <div class="container">
+        <div class="formBody">
+          <div>
+            <h2>Request a Quote</h2>
+            <p>To get a quote, please enter shipment information below. This is only a quote; to arrange a pick-up of your Guaranteed Select shipment please call 1-888-999-SAIA (1-888-999-7242) and supply the quote number. For any other customer service issues please call 1-800-765-7242.</p>
+          </div>
+          <div class="spacer1"></div>
+          <hr />
+          <div class="spacer2"></div>
+          <div class="formBody">
+            <form>
+              <h2>Shipper Information</h2>
+              <div class="noBottomSpacing">
+                <input type="text" placeholder="Full Name" name="shipper_info" id="full_name" class="required" />
+                <input type="text" placeholder="Company Name" name="shipper_info" id="shipper_company_name" class="required" />
+                <input type="text" placeholder="Address 1" name="shipper_info" id="shipper_address1" class="required" />
+                <input type="text" placeholder="Address 2" name="shipper_info" id="shipper_address2" />
+              </div>
+              <div class="thirds">
+                <div>
+                  <input type="text" placeholder="City" name="shipper_info" id="shipper_city" class="city required" />
+                  <input type="text" placeholder="State" name="shipper_info" id="shipper_state" class="state required" />
+                  <input type="text" placeholder="Zipcode" name="shipper_info" id="shipper_zipcode" class="dim last required" />
+                </div>
+              </div>
+              <div class="clear"></div>
+              <div class="noSpacing">
+                <div class="halves">
+                  <input type="text" placeholder="Phone Number" name="shipper_info" id="phone_num" class="left required" />
+                  <input type="text" placeholder="Fax Number" name="shipper_info" id="fax_num" class="right required" />
+                </div>
+                <div class="clear"></div>
+                <input type="text" placeholder="E-mail Address" name="shipper_info" id="email_address" class="required" />
+                <input type="text" placeholder="Referrer" name="shipper_info" id="referrer" />
+              </div>
+              <div class="spacer2"></div>
+              <hr />
+              <div class="spacer2"></div>
+              <h2>Commodity</h2>
+              <div class="noBottomSpacing">
+                <input type="text" placeholder="# of Pieces" name="shipper_info" id="num_pieces" class="required" />
+                <input type="text" placeholder="Total Weight" name="shipper_info" id="total_weight" class="required" />
+                <input type="text" placeholder="Dimensions" name="shipper_info" id="dimensions" class="required" />
+              </div>
+              <div class="radio">
+                <div class="thirds">
+                <div class="first select-date"><p>Pickup Date:</p></div>
+                  <div class="month">
+                    <select name="shipment_info" id="pickup_month" class="select">
+                      <option>Month</option>
+                      <option value="01">Jan</option>
+                      <option value="02">Feb</option>
+                      <option value="03">Mar</option>
+                      <option value="04">Apr</option>
+                      <option value="05">May</option>
+                      <option value="06">Jun</option>
+                      <option value="07" selected="">Jul</option>
+                      <option value="08">Aug</option>
+                      <option value="09">Sep</option>
+                      <option value="10">Oct</option>
+                      <option value="11">Nov</option>
+                      <option value="12">Dec</option>
+                    </select>
+                  </div>
+                  <div class="day">
+                    <select name="shipment_info" id="pickup_day" class="select">
+                      <option>DD</option>
+                      <option value="01">1</option>
+                      <option value="02">2</option>
+                      <option value="03">3</option>
+                      <option value="04">4</option>
+                      <option value="05">5</option>
+                      <option value="06">6</option>
+                      <option value="07">7</option>
+                      <option value="08">8</option>
+                      <option value="09">9</option>
+                      <option value="10">10</option>
+                      <option value="11">11</option>
+                      <option value="12">12</option>
+                      <option value="13">13</option>
+                      <option value="14">14</option>
+                      <option value="15">15</option>
+                      <option value="16">16</option>
+                      <option value="17">17</option>
+                      <option value="18">18</option>
+                      <option value="19">19</option>
+                      <option value="20" selected="">20</option>
+                      <option value="21">21</option>
+                      <option value="22">22</option>
+                      <option value="23">23</option>
+                      <option value="24">24</option>
+                      <option value="25">25</option>
+                      <option value="26">26</option>
+                      <option value="27">27</option>
+                      <option value="28">28</option>
+                      <option value="29">29</option>
+                      <option value="30">30</option>
+                      <option value="31">31</option>
+                    </select>
+                  </div>
+                  <div class="year last">
+                    <select name="shipment_info" id="pickup_year" class="select">
+                      <option>Year</option>
+                      <option value="2012" selected="">2012</option>
+                      <option value="2013">2013</option>
+                      <option value="2014">2014</option>
+                      <option value="2015">2015</option>
+                      <option value="2016">2016</option>
+                      <option value="2017">2017</option>
+                      <option value="2018">2018</option>
+                      <option value="2019">2019</option>
+                      <option value="2020">2020</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="clear"></div>
+              <div class="radio">
+                <div class="thirds">
+                <div class="first select-date"><p>Delivery Date:</p></div>
+                  <div class="month">
+                    <select name="shipment_info" id="delivery_month" class="select">
+                      <option>Month</option>
+                      <option value="01">Jan</option>
+                      <option value="02">Feb</option>
+                      <option value="03">Mar</option>
+                      <option value="04">Apr</option>
+                      <option value="05">May</option>
+                      <option value="06">Jun</option>
+                      <option value="07" selected="">Jul</option>
+                      <option value="08">Aug</option>
+                      <option value="09">Sep</option>
+                      <option value="10">Oct</option>
+                      <option value="11">Nov</option>
+                      <option value="12">Dec</option>
+                    </select>
+                  </div>
+                  <div class="day">
+                    <select name="shipment_info" id="delivery_day" class="select">
+                      <option>DD</option>
+                      <option value="01">1</option>
+                      <option value="02">2</option>
+                      <option value="03">3</option>
+                      <option value="04">4</option>
+                      <option value="05">5</option>
+                      <option value="06">6</option>
+                      <option value="07">7</option>
+                      <option value="08">8</option>
+                      <option value="09">9</option>
+                      <option value="10">10</option>
+                      <option value="11">11</option>
+                      <option value="12">12</option>
+                      <option value="13">13</option>
+                      <option value="14">14</option>
+                      <option value="15">15</option>
+                      <option value="16">16</option>
+                      <option value="17">17</option>
+                      <option value="18">18</option>
+                      <option value="19">19</option>
+                      <option value="20" selected="">20</option>
+                      <option value="21">21</option>
+                      <option value="22">22</option>
+                      <option value="23">23</option>
+                      <option value="24">24</option>
+                      <option value="25">25</option>
+                      <option value="26">26</option>
+                      <option value="27">27</option>
+                      <option value="28">28</option>
+                      <option value="29">29</option>
+                      <option value="30">30</option>
+                      <option value="31">31</option>
+                    </select>
+                  </div>
+                  <div class="year last">
+                    <select name="shipment_info" id="delivery_year" class="select">
+                      <option>Year</option>
+                      <option value="2012" selected="">2012</option>
+                      <option value="2013">2013</option>
+                      <option value="2014">2014</option>
+                      <option value="2015">2015</option>
+                      <option value="2016">2016</option>
+                      <option value="2017">2017</option>
+                      <option value="2018">2018</option>
+                      <option value="2019">2019</option>
+                      <option value="2020">2020</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="spacer2"></div>
+              <hr />
+              <div class="spacer2"></div>
+              <h3>Origin Location</h3>
+              <div>
+                <div class="min">
+                    <div class="left">
+                        <div><input type="text" placeholder="City" name="origin_loc" id="origin_city" class="required" /></div>
+                        <div><p style="float:left;">and/or</p><input type="text" placeholder="Zipcode" name="origin_loc" id="origin_zipcode" class="required zip" /></div>
+                    </div>
+                    <div class="right">
+                        <div><input type="text" placeholder="State" name="origin_loc" id="origin_state" class="required" /></div>
+                        <div>
+                            <select name="origin_loc" id="origin_country" class="select required right">
+                                <option>Select Country</option>
+                                <option value="1">United States</option>
+                                <option value="2">Canada</option>
+                                <option value="3">Mexico</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <p class="originDesc">*The origin must be within our direct coverage area</p>
+                <h3>Destination Location</h3>
+                <div class="min location">
+                    <div class="left">
+                        <div><input type="text" placeholder="City" name="dest_loc" id="dest_city" class="required" /></div>
+                        <div><p style="float:left;">and/or</p><input type="text" placeholder="Zipcode" name="dest_loc" id="dest_zipcode" class="required zip" /></div>
+                    </div>
+                    <div class="right">
+                        <div><input type="text" placeholder="State" name="dest_loc" id="dest_state" class="required" /></div>
+                        <div>
+                            <select name="dest_loc" id="dest_country" class="select required right">
+                                <option>Select Country</option>
+                                <option value="1">United States</option>
+                                <option value="2">Canada</option>
+                                <option value="3">Mexico</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+              </div>
+              <div class="spacer1"></div>
+              <hr />
+              <div class="spacer2"></div>
+              <h2>Other Information</h2>
+              <div class="spacer1"></div>
+              <div>
+                  <div class="checkboxContainer">
+                      <h3>Type of Service</h3>
+                      <ul>
+                          <li class="required">Inbound</li>
+                          <li><input type="checkbox" name="serv_in" id="serv_in_48_van" /><label for="serv_in_48_van">48' Van</label></li>
+                          <li><input type="checkbox" name="serv_in" id="serv_in_53_van" /><label for="serv_in_53_van">53' Van</label></li>
+                          <li><input type="checkbox" name="serv_in" id="serv_in_flatbed" /><label for="serv_in_flatbed">Flatbed</label></li>
+                          <li><input type="checkbox" name="serv_in" id="serv_in_air" /><label for="serv_in_air">Air Ride</label></li>
+                          <li><input type="checkbox" name="serv_in" id="serv_in_reefer" /><label for="serv_in_reefer">Reefer</label></li>
+                          <li><input type="checkbox" name="serv_in" id="serv_in_special" /><label for="serv_in_special">Specialized</label></li>
+                      </ul>
+                      <ul>
+                          <li class="required">Outbound</li>
+                          <li><input type="checkbox" name="serv_out" id="serv_out_48_van" /><label for="serv_out_48_van">48' Van</label></li>
+                          <li><input type="checkbox" name="serv_out" id="serv_out_53_van" /><label for="serv_out_53_van">53' Van</label></li>
+                          <li><input type="checkbox" name="serv_out" id="serv_out_flatbed" /><label for="serv_out_flatbed">Flatbed</label></li>
+                          <li><input type="checkbox" name="serv_out" id="serv_out_air" /><label for="serv_out_air">Air Ride</label></li>
+                          <li><input type="checkbox" name="serv_out" id="serv_out_reefer" /><label for="serv_out_reefer">Reefer</label></li>
+                          <li><input type="checkbox" name="serv_out" id="serv_out_special" /><label for="serv_out_special">Specialized</label></li>
+                      </ul>
+                      <div class="clear"></div>
+                  </div>
+                  <div class="checkboxRight checkboxContainer">
+                      <h3>Type of Equipment</h3>
+                      <ul>
+                          <li class="required">Inbound</li>
+                          <li><input type="checkbox" name="equip_in" id="equip_in_48_van" /><label for="equip_in_48_van">48' Van</label></li>
+                          <li><input type="checkbox" name="equip_in" id="equip_in_53_van" /><label for="equip_in_53_van">53' Van</label></li>
+                          <li><input type="checkbox" name="equip_in" id="equip_in_flatbed" /><label for="equip_in_flatbed">Flatbed</label></li>
+                          <li><input type="checkbox" name="equip_in" id="equip_in_air" /><label for="equip_in_air">Air Ride</label></li>
+                          <li><input type="checkbox" name="equip_in" id="equip_in_reefer" /><label for="equip_in_reefer">Reefer</label></li>
+                          <li><input type="checkbox" name="equip_in" id="equip_in_special" /><label for="equip_in_special">Specialized</label></li>
+                      </ul>
+                      <ul>
+                          <li class="required">Outbound</li>
+                          <li><input type="checkbox" name="equip_out" id="equip_out_48_van" /><label for="equip_out_48_van">48' Van</label></li>
+                          <li><input type="checkbox" name="equip_out" id="equip_out_53_van" /><label for="equip_out_53_van">53' Van</label></li>
+                          <li><input type="checkbox" name="equip_out" id="equip_out_flatbed" /><label for="equip_out_flatbed">Flatbed</label></li>
+                          <li><input type="checkbox" name="equip_out" id="equip_out_air" /><label for="equip_out_air">Air Ride</label></li>
+                          <li><input type="checkbox" name="equip_out" id="equip_out_reefer" /><label for="equip_out_reefer">Reefer</label></li>
+                          <li><input type="checkbox" name="equip_out" id="equip_out_special" /><label for="equip_out_special">Specialized</label></li>
+                      </ul>
+                      <div class="clear"></div>
+                  </div>
+              </div>
+              <div class="noBotSpacing">
+                <textarea placeholder="Special Instructions" name="other_info" id="special_instr" class="required"></textarea>
+              </div>
+              <div class="clear"></div>
+              <div class="spacer2"></div>
+              <hr />
+              <div class="spacer1"></div>
+              <p class="required">Bold: Required</p>
+              <div>
+                <input type="reset" value="Clear" class="roundWhite" />
+                <input type="submit" value="Get Quote" class="roundRed" />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="sidebar">
+      <div class="container"> 
+        <!-- sidebar content start --> 
+        <!--#include virtual="assets/templates/sidebar-index-tl.html" --> 
+        <!-- sidebar content end -->
+        <div class="spacer"></div>
+      </div>
+    </div>
+  </div>
+  <!-- footer content start --> 
+  <!--#include virtual="assets/templates/footer-tl.html" --> 
+<!-- footer content end -->
+</body>
+</html>

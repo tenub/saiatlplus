@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+  <!-- header content start --> 
+  <!--#include virtual="assets/templates/header-tl.html" --> 
+  <!-- header content end -->
+  <div id="content">
+    <div id="main">
+      <div class="container">
+        <div class="fullBody">
+          <h1>2012 Holiday Schedule</h1>
+          <div class="spacer2"></div>
+          <p>Saia operations will be closed in observation of the following holidays:</p>
+          <table class="hor-minimalist1">
+            <thead>
+              <tr>
+                <th scope="col">Holiday</th>
+                <th scope="col">Date</th>
+                <th scope="col">Weekday</th>
+                
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>New Year's Day</td>
+                <td>January 2</td>
+                <td>Monday</td>
+              </tr>
+              <tr>
+                <td>Memorial Day</td>
+                <td>May 28</td>
+                <td>Monday</td>
+              </tr>
+              <tr>
+                <td>Independence Day</td>
+                <td>July 4</td>
+                <td>Wednesday</td>
+              </tr>
+              <tr>
+                <td>Labor Day</td>
+                <td>September 3</td>
+                <td>Monday</td>
+              </tr>
+              <tr>
+                <td>Thanksgiving Day</td>
+                <td>November 22</td>
+                <td>Thursday</td>
+              </tr>
+              <tr>
+                <td>After Thanksgiving</td>
+                <td>November 23</td>
+                <td>Friday</td>
+              </tr>
+              <tr>
+                <td>Christmas Day</td>
+                <td>December 25</td>
+                <td>Tuesday</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div id="sidebar">
+      <div class="container"> 
+        <!-- sidebar content start --> 
+        <!--#include virtual="assets/templates/sidebar-index-tl.html" --> 
+        <!-- sidebar content end -->
+        <div class="spacer"></div>
+      </div>
+    </div>
+  </div>
+  <!-- footer content start --> 
+  <!--#include virtual="assets/templates/footer-tl.html" --> 
+<!-- footer content end -->
+</body>
+</html>

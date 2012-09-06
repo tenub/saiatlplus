@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+    		<!-- header content start -->
+			<!--#include virtual="assets/templates/header-tl.html" -->
+			<!-- header content end -->
+    		<div id="content">
+    			<div id="main">
+    				<div class="container">
+                        <img class="hero" src="assets/img/hero_shipping_services.jpg" alt="hero_shipping_services" />
+    					<h1>Shipping Services</h1>
+                        <p class="required">Welcome to Robart Transportation, a Saia, Inc. owned company.  Robart Transportation offers a truckload solution that delivers extreme flexibility and accountability.</p>
+                        <div class="spacer3"></div>
+    					<h2>Flexible</h2>
+    					<p>In business since 1981, our capabilities include dry vans, flatbeds and refrigerated trailers, plus specialized services such as team truckload, expedited and time-definite delivery.  We also offer international, ocean and air shipments.</p>
+                        <div class="spacer3"></div>
+                        <h2>Accountable</h2>
+                        <p>When it comes to your shipments our name is on the line.  So we monitor and manage every step in your transportation process.</p>
+                        <p>Our Direct Dispatch puts us in direct communication with the drivers, enabling us to conduct daily checks on each shipment.  Multilingual dispatchers ensure that language is never a barrier to great service.</p>
+                        <p>At Robart Transportation, we hold ourselves accountable for delivering the results that you expect.</p>
+                        <div>
+    					    <ul class="list">
+                                <li class="noTopSpacing">Dry vans, Flatbeds and Reefers</li>
+                                <li>Specialized and Time-critical Shipments</li>
+                                <li>48 State Pick-up and Delivery</li>
+                                <li>International, Air and Ocean Service</li>
+                                <li>Centralized Control and Accountability</li>
+                                <li>Full Service Cross Dock and Consolidation Management</li>
+                                <li>Direct Communication with Drivers</li>
+                                <li>Daily Progress Checks on Every Shipment</li>
+                                <li>Multilingual Dispatch</li>
+                            </ul>
+                        </div>
+                        <a href="#" class="buttonLink left">Request a Quote</a><div style="width:20px;height:1px;float:left;"></div><a href="#" class="buttonLink left">Talk to an Expert</a>
+    				</div>
+    			</div>
+    			<div id="sidebar">
+    				<div class="container">
+						<!-- sidebar content start -->
+						<!--#include virtual="assets/templates/sidebar-index-tl.html" -->
+						<!-- sidebar content end -->
+    					<div class="spacer"></div>
+    				</div>
+    			</div>
+    		</div>
+    		<!-- footer content start -->
+			<!--#include virtual="assets/templates/footer-tl.html" -->
+			<!-- footer content end -->
+	</body>
+</html>

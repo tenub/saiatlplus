@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+    		<!-- header content start -->
+			<!--#include virtual="assets/templates/header-tl.html" -->
+			<!-- header content end -->
+    		<div id="content">
+    			<div id="main">
+    				<div class="container">
+						<img class="hero" src="assets/img/hero_onecall_shipment.jpg" alt="hero_onecall_shipment" />
+						<div class="clear"></div>
+    					<h1>OneCall Shipment Handling</h1>
+    					<h2>Etiam nec eros dolor</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer condimentum tincidunt nulla vel accumsan. In at est ante, ut convallis leo. Sed hendrerit posuere metus, vel sollicitudin augue accumsan ultricies. Donec ut semper orci. Integer porta nunc a nibh dictum sed porta nibh congue. Fusce congue dapibus felis, non tempor turpis suscipit quis. Phasellus rutrum, lacus nec malesuada venenatis, diam justo malesuada nunc, ornare imperdiet lacus magna quis sem.</p>
+						<a href="#" class="upperLink">Random Link &gt;</a>
+    				</div>
+    			</div>
+    			<div id="sidebar">
+    				<div class="container">
+						<!-- sidebar content start -->
+						<!--#include virtual="assets/templates/sidebar-index-tl.html" -->
+						<!-- sidebar content end -->
+    					<div class="spacer"></div>
+    				</div>
+    			</div>
+    		</div>
+    		<!-- footer content start -->
+			<!--#include virtual="assets/templates/footer-tl.html" -->
+			<!-- footer content end -->
+	</body>
+</html>
